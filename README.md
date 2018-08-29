@@ -3,7 +3,8 @@
 Correct way to print multi pages receipt with cut-off 
 
 # CSS 
-````@media print 
+````
+@media print 
 {
     #print-area {
         width: 700px;
@@ -28,7 +29,8 @@ Correct way to print multi pages receipt with cut-off
 
 # HTML
 
-````<div id="print-area" style="display:none;">
+````
+<div id="print-area" style="display:none;">
    <!-- first page print content here -->
     <div class="page-break"></div>
    <!-- second page print content here -->
